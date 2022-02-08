@@ -142,10 +142,38 @@ body{
     justify-content: space-around;
     margin : 100px 50px 100px;
     padding : 50px 0px 50px;
-    background-color: lightskyblue ;
+    background-color: rgb(19, 22, 230) ;
+    border-radius: 1em;
 }
 .sign-up-desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.sign-up-upper{
+    font-size: 24px;
+    font-weight: bold;
+}
+.sign-up-lower{
+    font-size: 16px;
+}
+.sign-up-bottom{
+    padding : 5px 20px 5px;
+    color : white;
+    background-color: rgb(19, 22, 230);
+    border-color: white;
+    border-radius: 0.5em;
+    font-size : 16px;
+    font-weight: bold;
 
+}
+
+.footer{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color : white;
 }
 
 
